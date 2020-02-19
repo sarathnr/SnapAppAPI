@@ -33,6 +33,17 @@ public class UserEntity implements Serializable{
 	@Column(name = "encyptedPassword")
 	private String encyptedPassword;
 
+	@Column(name = "userId")
+	private String userId;
+	
+	public String getUserId() {
+		return userId;
+	}
+
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+
 	public long getId() {
 		return id;
 	}

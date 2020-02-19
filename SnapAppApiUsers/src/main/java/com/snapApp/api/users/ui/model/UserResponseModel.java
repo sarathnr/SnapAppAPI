@@ -1,10 +1,10 @@
-package com.snapApp.api.users.shared;
+package com.snapApp.api.users.ui.model;
 
 import java.util.List;
 
 import com.snapApp.api.users.ui.model.AlbumResponseModel;
 
-public class UserDTO {
+public class UserResponseModel {
 
 	private String userId;
 	private String firstName;
