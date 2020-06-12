@@ -1,0 +1,4 @@
+FROM openjdk:11.0-jdk-slim
+VOLUME /tmp
+COPY /target/EurekaDiscoveryService-0.0.1-SNAPSHOT.jar DiscoveryService.jar
+ENTRYPOINT ["java","-jar","DiscoveryService.jar"]
